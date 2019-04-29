@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css?family=Comfortaa");
+
+body {
+	margin-top: 8%;
+	background-image: linear-gradient(to right, rgb(147, 169, 209), rgb(245, 202, 202));
+}
+#title {
+	text-align: center;
+}
+#title a {
+	border: 3px solid black;
+	border-radius: 10px;
+	padding: 20px;
+	font-family: Comfortaa;
+	font-weight: 800;
+	font-size: 20px;
+	text-transform: uppercase;
+	text-align: center;
+	text-decoration: none;
+}
+#title a:visited {
+	color: black;
+	text-decoration: none;
+}
+#title a:active {
+	background-color: rgba(0, 0, 0, .1);
+	box-shadow: -2px 2px 4px grey;
+}
+.hidden {
+	display: none;
+}
+#dropdowns {
+	font-family: Comfortaa;
+	text-align: center;
+	padding-top: 20px;
+}
